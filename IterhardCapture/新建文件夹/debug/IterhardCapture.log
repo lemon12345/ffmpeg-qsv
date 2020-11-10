@@ -1,0 +1,68 @@
+﻿  MOC rvideodecode.h
+  MOC showimagewidget.h
+  MOC widget.h
+  UIC showimagewidget.ui
+  UIC widget.ui
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_rvideodecode.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_rvideodecode.cpp, release\moc_rvideodecode.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_showimagewidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_showimagewidget.cpp, release\moc_showimagewidget.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_widget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_widget.cpp, release\moc_widget.cpp.
+  main.cpp
+d:\chengw\projects\iterhardcapture\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+main.cpp(130): warning C4804: '>>' : unsafe use of type 'bool' in operation
+main.cpp(80): warning C4100: 'output_ctx' : unreferenced formal parameter
+main.cpp(78): warning C4100: 'decode' : unreferenced formal parameter
+main.cpp(84): warning C4189: 'time' : local variable is initialized but not referenced
+main.cpp(83): warning C4189: 'len' : local variable is initialized but not referenced
+main.cpp(95): warning C4101: 'temp' : unreferenced local variable
+main.cpp(95): warning C4101: 'k' : unreferenced local variable
+main.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+  rvideodecode.cpp
+rvideodecode.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+d:\chengw\projects\iterhardcapture\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+rvideodecode.cpp(60): warning C4018: '<' : signed/unsigned mismatch
+rvideodecode.cpp(33): warning C4189: 'output_ctx' : local variable is initialized but not referenced
+rvideodecode.cpp(31): warning C4189: 'sw_frame' : local variable is initialized but not referenced
+rvideodecode.cpp(30): warning C4189: 'pkt' : local variable is initialized but not referenced
+rvideodecode.cpp(35): warning C4101: 'i' : unreferenced local variable
+rvideodecode.cpp(31): warning C4189: 'frame' : local variable is initialized but not referenced
+  showimagewidget.cpp
+  widget.cpp
+  moc_rvideodecode.cpp
+  moc_showimagewidget.cpp
+  moc_widget.cpp
+  Generating Code...
+avformat.lib(dkpgcs00126.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00111.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00101.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00087.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00060.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00085.o) : error LNK2026: module unsafe for SAFESEH image.
+avformat.lib(dkpgcs00008.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00129.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00160.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00178.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00173.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00103.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00156.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00186.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00181.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00133.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00058.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00139.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00190.o) : error LNK2026: module unsafe for SAFESEH image.
+avcodec.lib(dqgkes00192.o) : error LNK2026: module unsafe for SAFESEH image.
+swscale.lib(daozcs00015.o) : error LNK2026: module unsafe for SAFESEH image.
+swscale.lib(daozcs00026.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00451.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00310.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00064.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00163.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00168.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00204.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00259.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00268.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00270.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00273.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00308.o) : error LNK2026: module unsafe for SAFESEH image.
+avutil.lib(dwjdes00366.o) : error LNK2026: module unsafe for SAFESEH image.
+debug\\IterhardCapture.exe : fatal error LNK1281: Unable to generate SAFESEH image.

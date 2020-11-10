@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_rvideodecode.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_rvideodecode.cpp, release\moc_rvideodecode.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_showimagewidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_showimagewidget.cpp, release\moc_showimagewidget.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_widget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are debug\moc_widget.cpp, release\moc_widget.cpp.
+  widget.cpp
+d:\chengw\projects\iterhardcapture\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+widget.cpp(21): warning C4100: 'opaque' : unreferenced formal parameter
+widget.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+widget.cpp(65): warning C4189: 'dicy' : local variable is initialized but not referenced
+widget.cpp(64): warning C4189: 'inputfmt' : local variable is initialized but not referenced
+  IterhardCapture.vcxproj -> D:\chengw\Projects\IterhardCapture\release\IterhardCapture.exe
